@@ -18,6 +18,12 @@ venv.bak/
 #    git add .vscode/ --force
 .vscode/
 
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+.claude/
+
 # Python
 __pycache__/
 *.py[cod]
