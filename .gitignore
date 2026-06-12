@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: Contributors to the Power Grid Model project <powergridmodel@lfenergy.org>
+#
+# SPDX-License-Identifier: MPL-2.0
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode configurations
+# it is ignored by default so the user does not accidentally change the configuration
+# if you want to changes the JSON file in .vscode folder
+# please type
+#    git add .vscode/ --force
+.vscode/
