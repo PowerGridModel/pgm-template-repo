@@ -9,6 +9,28 @@ SPDX-License-Identifier: MPL-2.0
 # Power Grid Model template repository
 
 This is a template repository for the Power Grid Model project.
+Only common and mandatory content is included in this repository.
+The derived repositories should review and edit content relevant to the best practices and standards. 
+
+## Checklist after creating a repository from this template
+
+Update the following items manually before publishing your repository:
+
+- [ ] Rename the repository and update all references in this file.
+- [ ] Replace all `pgm-template-repo` references across the repository, especially in this README and REUSE.toml.
+- [ ] Replace the project title and description in this README.
+- [ ] Ensure all third-party licenses are present in [LICENSES](https://github.com/PowerGridModel/pgm-template-repo/tree/main/LICENSES).
+
+### Optional checks
+
+Change these if applicable.
+
+- [ ] Replace Power Grid Model project-specific links (for example contributing, support, release, security, and code of conduct links) 
+with links for your project.
+- [ ] Add logos and badges corresponding to relevant pages
+- [ ] Verify [LICENSE](https://github.com/PowerGridModel/pgm-template-repo/blob/main/LICENSE) copyright holder and year(s).
+Also verify SPDX copyright headers in source and documentation files.
+- [ ] Include documents present in [Home page of PGM org](https://github.com/PowerGridModel/.github/) in documentation if they are created.
 
 ## License
 
