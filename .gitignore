@@ -4,6 +4,8 @@
 
 # Environments
 .env
+.env.local
+.env.*.local
 .venv
 env/
 venv/
@@ -18,11 +20,51 @@ venv.bak/
 #    git add .vscode/ --force
 .vscode/
 
-# JetBrains Rider
+# IDEs - Visual Studio, VS Code, JetBrains
 .idea/
+.vs/
+.vscode/
 *.sln.iml
+*.user
+*.sln.docstates
+.vscode-test/
 
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, CLion, etc.)
+*.iml
+*.iws
+*.ipr
+*.iml
+out/
+
+# Visual Studio
+obj/
+bin/
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# AI Agents & Copilot
 .claude/
+.copilot/
+.copilot-instructions/
+.ai/
+
+# Editor backups & temp files
+*.swp
+*.swo
+*~
+*.bak
+.sublime-project
+.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.directory
+
+# Logs
+*.log
 
 # Python
 __pycache__/
