@@ -20,6 +20,8 @@ Update the following items manually before publishing your repository:
 - [ ] Replace all `pgm-template-repo` references across the repository, especially in this README and REUSE.toml.
 - [ ] Replace the project title and description in this README.
 - [ ] Ensure all third-party licenses are present in [LICENSES](https://github.com/PowerGridModel/pgm-template-repo/tree/main/LICENSES).
+- [ ] Change the default created repo settings to align with PGM standards. Verify against existing repos. For eg. enable dependabot
+scanning, private vulnerability reporting and dependency graph creation.
 
 ### Optional checks
 
